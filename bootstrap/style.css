@@ -1,0 +1,15 @@
+.heading {
+    animation: 10s slide-right;
+    width: 100%;
+    overflow: hidden
+};
+@keyframes heading{
+    from{
+        margin-left: -100%;
+        width: 300%
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
